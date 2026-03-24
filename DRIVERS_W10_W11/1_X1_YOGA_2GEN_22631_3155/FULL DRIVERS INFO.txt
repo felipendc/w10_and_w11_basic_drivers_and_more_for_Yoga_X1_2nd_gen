@@ -1,0 +1,355 @@
+############# WARNING: #############
+
+THESE DRIVERS HAS BEEN EXTRACTED FROM A THINKPAD X1_YOGA_2GEN LAPTOP:
+[LOGITECH M720, Intel Dual Band Wireless-AC 8265]
+Which means that, some of these drivers migh not work on you SETUP (PC).
+
+
+COMMAND TO EXTRACT THE DRIVERS: 
+Export-WindowsDriver -Online -Destination C:\Drivers_Extracted_X1_YOGA_2GEN_22631_3155
+
+WINDOWS VERSION:
+22631.3155.240209-2255.23H2_NI_RELEASE_SVC_PROD1_CLIENTPRO_OEMRET_X64FRE_PT-BR (MAIN RELEASE CHANNEL)
+
+BLUETOTH DRIVER VER: 
+Intel Corporation - Bluetooth - 23.20.0.3
+
+####################################
+
+
+
+
+
+O Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+                                                                                                                        Instale o PowerShell mais recente para obter novos recursos e aprimoramentos! https://aka.ms/PSWindows                                                                                                                                          PS C:\Windows\system32> Export-WindowsDriver -Online -Destination C:\Drivers_Extracted_X1_YOGA_2GEN_22631_3155          
+
+Driver           : oem0.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\prnms009.inf_amd64_3107874c7db0aa5a\prnms009.inf
+Inbox            : False
+ClassName        : Printer
+BootCritical     : False
+ProviderName     : Microsoft
+Date             : 21/06/2006 00:00:00
+Version          : 10.0.22621.1
+
+Driver           : oem1.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\ibtusb.inf_amd64_c291b2cf7992e354\ibtusb.inf
+Inbox            : False
+ClassName        : Bluetooth
+BootCritical     : False
+ProviderName     : Intel Corporation
+Date             : 14/12/2021 00:00:00
+Version          : 22.100.1.1
+
+Driver           : oem10.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\heci.inf_amd64_605dda426937489f\heci.inf
+Inbox            : False
+ClassName        : System
+BootCritical     : True
+ProviderName     : Intel
+Date             : 16/02/2021 00:00:00
+Version          : 2108.100.0.1053
+
+Driver           : oem11.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\ish.inf_amd64_64d16427c75175b1\ish.inf
+Inbox            : False
+ClassName        : System
+BootCritical     : True
+ProviderName     : Intel
+Date             : 24/10/2018 00:00:00
+Version          : 3.1.0.3821
+
+Driver           : oem12.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\powermgrextension.inf_amd64_008ddec9445af709\powermgr
+                   extension.inf
+Inbox            : False
+ClassName        : Extension
+BootCritical     : False
+ProviderName     : Lenovo
+Date             : 24/10/2018 00:00:00
+Version          : 1.0.1.0
+
+Driver           : oem13.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\ibmpmdrv.inf_amd64_7b52940a5893ba07\ibmpmdrv.inf
+Inbox            : False
+ClassName        : System
+BootCritical     : True
+ProviderName     : Lenovo
+Date             : 14/06/2023 00:00:00
+Version          : 1.69.15.0
+
+Driver           : oem14.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\spuvcbvjp.inf_amd64_27ed2ce2f1832d25\spuvcbvjp.inf
+Inbox            : False
+ClassName        : Camera
+BootCritical     : False
+ProviderName     : SunplusIT
+Date             : 15/07/2020 00:00:00
+Version          : 5.0.18.82
+
+Driver           : oem15.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\t15plmwa.inf_amd64_f6d7a3cb50e65a52\t15plmwa.inf
+Inbox            : False
+ClassName        : MEDIA
+BootCritical     : False
+ProviderName     : Conexant
+Date             : 22/08/2021 00:00:00
+Version          : 8.66.89.52
+
+Driver           : oem16.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\ish_busdriver.inf_amd64_35d1c93e780e6195\ish_busdrive
+                   r.inf
+Inbox            : False
+ClassName        : System
+BootCritical     : True
+ProviderName     : Intel
+Date             : 24/10/2018 00:00:00
+Version          : 3.1.0.3821
+
+Driver           : oem17.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_d4f47df9c2216d4d\lms.inf
+Inbox            : False
+ClassName        : SoftwareComponent
+BootCritical     : False
+ProviderName     : Intel
+Date             : 01/06/2020 00:00:00
+Version          : 2023.14.0.1640
+
+Driver           : oem18.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\sgx_psw.inf_amd64_d372a4ea3b959b1c\sgx_psw.inf
+Inbox            : False
+ClassName        : SoftwareComponent
+BootCritical     : False
+ProviderName     : Intel Corporation
+Date             : 13/10/2023 00:00:00
+Version          : 2.21.100.3
+
+Driver           : oem19.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_b5484efd38adbe8d\dal.inf
+Inbox            : False
+ClassName        : SoftwareComponent
+BootCritical     : False
+ProviderName     : Intel
+Date             : 21/01/2021 00:00:00
+Version          : 1.41.2021.121
+
+Driver           : oem2.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\iigd_dch_install.inf_amd64_51f685305808e3a5\iigd_dch_
+                   install.inf
+Inbox            : False
+ClassName        : Display
+BootCritical     : False
+ProviderName     : Intel Corporation
+Date             : 19/07/2022 00:00:00
+Version          : 31.0.101.2111
+
+Driver           : oem20.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_75ffca5eec865b4b\iclsclient.inf
+Inbox            : False
+ClassName        : SoftwareComponent
+BootCritical     : False
+ProviderName     : Intel
+Date             : 09/04/2020 00:00:00
+Version          : 1.61.251.0
+
+Driver           : oem21.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\powermgr.inf_amd64_58393af79da34e94\powermgr.inf
+Inbox            : False
+ClassName        : System
+BootCritical     : True
+ProviderName     : Lenovo
+Date             : 20/12/2023 00:00:00
+Version          : 10.1.7.0
+
+Driver           : oem22.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\hid_pci.inf_amd64_4602c21a151b7c57\hid_pci.inf
+Inbox            : False
+ClassName        : HIDClass
+BootCritical     : True
+ProviderName     : Intel
+Date             : 24/10/2018 00:00:00
+Version          : 3.1.0.3821
+
+Driver           : oem24.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\oemvista.inf_amd64_662fd96dfdced4ae\oemvista.inf
+Inbox            : False
+ClassName        : Net
+BootCritical     : False
+ProviderName     : TAP-Windows Provider V9
+Date             : 08/10/2020 00:00:00
+Version          : 9.24.6.601
+
+Driver           : oem25.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\isd_infinstall.inf_amd64_9e38cbc5fbb3c32f\isd_infinst
+                   all.inf
+Inbox            : False
+ClassName        : HIDClass
+BootCritical     : True
+ProviderName     : Wacom Technology
+Date             : 23/05/2017 00:00:00
+Version          : 7.3.4.38
+
+Driver           : oem26.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\netwtw06.inf_amd64_815f23ca1e6e87e4\netwtw06.inf
+Inbox            : False
+ClassName        : net
+BootCritical     : False
+ProviderName     : Intel
+Date             : 13/01/2022 00:00:00
+Version          : 20.70.30.1
+
+Driver           : oem27.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\tplcd.inf_amd64_40c562c030f4c758\tplcd.inf
+Inbox            : False
+ClassName        : Monitor
+BootCritical     : False
+ProviderName     : Lenovo
+Date             : 07/03/2024 00:00:00
+Version          : 6.14.22.0
+
+Driver           : oem28.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\xtuacpidriver.inf_amd64_bd1bc401eb7a9d7a\xtuacpidrive
+                   r.inf
+Inbox            : False
+ClassName        : System
+BootCritical     : True
+ProviderName     : Intel
+Date             : 12/04/2017 00:00:00
+Version          : 14.28.47.630
+
+Driver           : oem29.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\e1d65x64.inf_amd64_d80574bc69152b36\e1d65x64.inf
+Inbox            : False
+ClassName        : Net
+BootCritical     : False
+ProviderName     : Intel
+Date             : 29/09/2017 00:00:00
+Version          : 12.17.8.7
+
+Driver           : oem3.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\synawudfbiousblenovomissgxprod.inf_amd64_cf71fa04ba46
+                   c0db\synawudfbiousblenovomissgxprod.inf
+Inbox            : False
+ClassName        : Biometric
+BootCritical     : False
+ProviderName     : Synaptics Incorporated
+Date             : 13/04/2020 00:00:00
+Version          : 5.2.3540.26
+
+Driver           : oem30.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_7036ed8ea7ec0fa9\android_win
+                   usb.inf
+Inbox            : False
+ClassName        : AndroidUsbDeviceClass
+BootCritical     : False
+ProviderName     : LeMobile
+Date             : 28/08/2016 00:00:00
+Version          : 11.0.0.0
+
+Driver           : oem31.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\sunrisepoint-lpsystem.inf_amd64_c08c10fa27075155\sunr
+                   isepoint-lpsystem.inf
+Inbox            : False
+ClassName        : System
+BootCritical     : True
+ProviderName     : INTEL
+Date             : 03/10/2016 00:00:00
+Version          : 10.1.1.38
+
+Driver           : oem32.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\kabylakesystem.inf_amd64_ffd73ad02ace4139\kabylakesys
+                   tem.inf
+Inbox            : False
+ClassName        : System
+BootCritical     : True
+ProviderName     : INTEL
+Date             : 03/10/2016 00:00:00
+Version          : 10.1.1.38
+
+Driver           : oem33.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\sunrisepoint-lpsystemthermal.inf_amd64_7e014774b9c5f7
+                   68\sunrisepoint-lpsystemthermal.inf
+Inbox            : False
+ClassName        : System
+BootCritical     : True
+ProviderName     : INTEL
+Date             : 01/01/1970 00:00:00
+Version          : 10.1.1.38
+
+Driver           : oem34.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\skylakesystemgmm.inf_amd64_b3604a45c3e2c49a\skylakesy
+                   stemgmm.inf
+Inbox            : False
+ClassName        : System
+BootCritical     : True
+ProviderName     : INTEL
+Date             : 01/01/1970 00:00:00
+Version          : 10.1.1.38
+
+Driver           : oem35.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\iccwdt.inf_amd64_dd18b39e0126ee09\iccwdt.inf
+Inbox            : False
+ClassName        : System
+BootCritical     : True
+ProviderName     : Intel
+Date             : 19/09/2017 00:00:00
+Version          : 11.7.0.1000
+
+Driver           : oem4.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\synhidmini.inf_amd64_5c295375ee747dbc\synhidmini.inf
+Inbox            : False
+ClassName        : HIDClass
+BootCritical     : True
+ProviderName     : Synaptics
+Date             : 12/06/2020 00:00:00
+Version          : 19.3.4.226
+
+Driver           : oem5.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\synpd.inf_amd64_7738082c49984111\synpd.inf
+Inbox            : False
+ClassName        : Mouse
+BootCritical     : True
+ProviderName     : Synaptics
+Date             : 12/06/2020 00:00:00
+Version          : 19.3.4.226
+
+Driver           : oem6.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\synsmbdrv.inf_amd64_5c2abc830723407d\synsmbdrv.inf
+Inbox            : False
+ClassName        : System
+BootCritical     : True
+ProviderName     : Synaptics
+Date             : 12/06/2020 00:00:00
+Version          : 19.3.4.226
+
+Driver           : oem7.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\unifhid.inf_amd64_ba680b8596be64e8\unifhid.inf
+Inbox            : False
+ClassName        : HIDClass
+BootCritical     : True
+ProviderName     : Logitech
+Date             : 24/08/2021 00:00:00
+Version          : 1.10.80.0
+
+Driver           : oem8.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\rtsper.inf_amd64_35a8e26513c163c8\rtsper.inf
+Inbox            : False
+ClassName        : MTD
+BootCritical     : False
+ProviderName     : Realtek Semiconductor Corp.
+Date             : 17/09/2019 00:00:00
+Version          : 10.0.18362.21323
+
+Driver           : oem9.inf
+OriginalFileName : C:\Windows\System32\DriverStore\FileRepository\sgx_base.inf_amd64_a68d95086b19f983\sgx_base.inf
+Inbox            : False
+ClassName        : System
+BootCritical     : True
+ProviderName     : Intel Corporation
+Date             : 22/02/2023 00:00:00
+Version          : 2.18.100.2
+
+
+
+PS C:\Windows\system32>
