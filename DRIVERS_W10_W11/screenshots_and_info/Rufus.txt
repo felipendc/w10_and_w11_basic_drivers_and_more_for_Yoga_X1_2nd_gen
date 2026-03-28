@@ -1,0 +1,1 @@
+I ticked all of the options suggested by Rufus (version rufus-4.7) before flashing the Windows ISO to the USB stick.

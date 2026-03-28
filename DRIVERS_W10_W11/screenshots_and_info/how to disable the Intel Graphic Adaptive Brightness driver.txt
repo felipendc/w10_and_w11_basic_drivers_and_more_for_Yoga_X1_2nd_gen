@@ -1,0 +1,25 @@
+Essa configuração é perfeita para o Windows 10 Pro 19045.1826
+This is the perfect setting for Windows 11 Pro 19045.1826
+
+Esse script está atualmente funcionando normalmente no Windows 10 Pro versão 19045.1826
+This script is currently working perfectly on Windows 10 Pro version 19045.1826
+
+#-----------------------------------------------------------#
+Desativa brilho adaptável do Intel Graphics driver:
+Disable the Intel Graphic Adaptive Brightness driver:
+
+reg add "HKLM\System\CurrentControlSet\Control\GraphicsDrivers\FeatureSet" /v FeatureTestControl /t REG_DWORD /d 0 /f
+
+
+#-----------------------------------------------------------#
+Ativar brilho adaptável do Intel Graphics driver:
+Enable the Intel Graphic Adaptive Brightness driver:
+
+reg add "HKLM\System\CurrentControlSet\Control\GraphicsDrivers\FeatureSet" /v FeatureTestControl /t REG_DWORD /d 1 /f
+
+
+#-----------------------------------------------------------#
+Remover o valor do registro (recomendado):
+Remove the value from the registry (recommended):
+
+reg delete "HKLM\System\CurrentControlSet\Control\GraphicsDrivers\FeatureSet" /v FeatureTestControl /f

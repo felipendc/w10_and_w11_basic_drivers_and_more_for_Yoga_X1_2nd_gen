@@ -1,0 +1,5 @@
+
+
+There is no need to add the XML preset files in the root folder of the ISO for debloating the operating system.
+
+For better and wonderful colors, you just need to install the bluetooth, touchpad and the Graphics driver only.
